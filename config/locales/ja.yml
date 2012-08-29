@@ -202,3 +202,11 @@ ja:
       next: '次'
       first: '最初'
       last: '最後'
+
+  social_authentication_methods: 'ソーシャル認証'
+  social_authentication_methods_description: 'ソーシャルメディアアカウントによる認証管理'
+  new_social_method: '新規ソーシャル認証'
+  edit_social_method: 'ソーシャル認証の編集'
+  social_provider: 'ソーシャルメディア'
+  social_api_key: 'API Key'
+  social_api_secret: 'API Secret'
