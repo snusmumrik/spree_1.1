@@ -212,3 +212,9 @@ ja:
   social_api_secret: 'API Secret'
 
   recently_viewed_products: '最近見た商品'
+
+  relation_types: 'リレーションタイプ'
+  manage_relation_types: 'リレーションタイプの管理'
+  new_relation_type: '新規リレーションタイプ'
+  editing_relation_type: 'リレーションタイプの編集'
+  applies_to: '対象'
