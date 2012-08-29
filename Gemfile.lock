@@ -7,6 +7,13 @@ GIT
       spree (~> 1.1)
 
 GIT
+  remote: git://github.com/spree/spree_recently_viewed.git
+  revision: 94da8eae4286fd5eac4319e21dffb0980a2e6d0a
+  specs:
+    spree_recently_viewed (1.1)
+      spree_core (>= 1.0.0)
+
+GIT
   remote: git://github.com/spree/spree_social.git
   revision: 388c31142ed8392dbf476acb9b2a41173f7f9ec6
   specs:
@@ -295,6 +302,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree (= 1.1.3)
   spree_i18n!
+  spree_recently_viewed!
   spree_skrill
   spree_social!
   spree_usa_epay

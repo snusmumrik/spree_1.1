@@ -210,3 +210,5 @@ ja:
   social_provider: 'ソーシャルメディア'
   social_api_key: 'API Key'
   social_api_secret: 'API Secret'
+
+  recently_viewed_products: '最近見た商品'
