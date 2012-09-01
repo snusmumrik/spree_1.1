@@ -13,3 +13,4 @@
 
 //= require_tree .
 //= require store/spree_social
+//= require store/spree_wishlist
