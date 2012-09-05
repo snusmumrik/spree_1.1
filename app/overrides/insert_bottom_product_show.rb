@@ -6,7 +6,10 @@ Deface::Override.new(:virtual_path => "spree/products/show",
   <% @product.images.each do |i| %>
     <li class="tumblr" id="tumblr-<%= i.id.to_s %>">
       <%= link_to image_tag(i.attachment.url(:large), :title => i.alt), i.attachment.url(:huge), :rel => "lightbox[#{@product.name}]", :title => i.alt %>
-      <p><%= i.alt %></p>
+      <p>
+        <%= i.alt %>
+        <span class="float-right"><%= i.attachment_updated_at.strftime("%Y-%m-%d %H:%M:%S") %></span>
+       </p>
     </li>
   <% end %>
 </div>

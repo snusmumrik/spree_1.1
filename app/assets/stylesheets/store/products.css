@@ -5,10 +5,14 @@
 li.tumblr {
     list-style: none;
     width: 600px;
-    margin: 0 auto 20px;
+    margin: 0 auto 40px;
 }
 
 li.tumblr p {
     padding-top: 5px;
     margin: 0 30px;
+}
+
+li.tumblr .float-right {
+    float: right;
 }
