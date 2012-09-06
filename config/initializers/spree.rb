@@ -9,4 +9,5 @@ Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   # config.site_name = "Spree Demo Site"
+  require File.expand_path('../../../lib/product_filters.rb', __FILE__)
 end
