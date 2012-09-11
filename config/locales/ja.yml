@@ -196,6 +196,11 @@ ja:
     errors:
       <<: *errors
 
+#########
+# Custom
+#########
+  top: 'トップ'
+
   views:
     pagination:
       previous: '前'
